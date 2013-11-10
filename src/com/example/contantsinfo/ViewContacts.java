@@ -42,6 +42,7 @@ public class ViewContacts extends ListActivity {
         
     }
     
+    /* init */
     public void init(){
     	telemanger =  (TelephonyManager) getSystemService(Context.TELEPHONY_SERVICE);
     	people     =  fillMaps();
