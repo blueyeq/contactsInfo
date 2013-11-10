@@ -4,6 +4,9 @@
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
     >
+
+    
+
         <TableRow android:id="@+id/TableRow01" 
                           android:layout_width="wrap_content" 
                           android:layout_height="wrap_content">
@@ -19,5 +22,11 @@
                           android:layout_width="wrap_content"
                           android:layout_height="wrap_content"
                           android:textSize="20px" />
+                <Button
+				        android:id="@+id/selectContactButton"
+				        android:layout_width="wrap_content"
+				        android:layout_height="wrap_content"
+				        android:text="select" />
         </TableRow>
+
 </LinearLayout>
